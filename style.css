@@ -34,4 +34,12 @@ body {
   border-radius: 20px;
   padding: 5px 20px;
   color: #416966;
+}
+#todo h2 {
+  border-radius: 18px;
+  padding: 12px 40px;
+  margin: 10px 45px;
+  text-align: center;
+  border: 1px solid #030303;
+  max-width: 180px;
 }/*# sourceMappingURL=style.css.map */
