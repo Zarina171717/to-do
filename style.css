@@ -3,18 +3,11 @@ body {
   font-weight: 500;
 }
 
-.imgbox {
-  overflow: hidden;
-}
-.imgbox img {
-  width: 100%;
-}
-
 #todo {
-  padding: 80px 0;
+  padding: 90px 0;
 }
 #todo .box {
-  background-color: #62a39e;
+  background-color: #9c6644;
   padding: 20px 25px;
   border-radius: 20px;
 }
@@ -24,16 +17,22 @@ body {
   font-weight: 700;
 }
 #todo .box input {
-  border-radius: 15px;
+  border-radius: 20px;
   margin: 20px 0;
-  padding: 10px 0;
+  padding: 15px 5px;
   padding-left: 10px;
 }
 #todo .box .btn {
   background-color: white;
   border-radius: 20px;
   padding: 5px 20px;
-  color: #416966;
+}
+#todo .box .btn:hover {
+  background-color: #d5d8dd;
+}
+#todo .minibox {
+  margin-top: 30px;
+  width: 270px;
 }
 #todo .minibox h2 {
   border-radius: 20px;
@@ -42,4 +41,5 @@ body {
   text-align: center;
   border: 1px solid #030303;
   max-width: 200px;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
